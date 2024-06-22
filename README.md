@@ -1,1 +1,1 @@
-# MOBA HOME
+# MOBA HOME - Developers
