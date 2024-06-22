@@ -1,0 +1,21 @@
+pipeline{
+    agent{
+        label 'test'
+    }
+    stages{
+        stage('server-details'){
+            steps{
+                sh '''
+                    uname -a   
+                '''
+            }
+        }
+        stage('Memory'){
+            steps{
+                sh '''
+                    free -h   
+                '''
+            }
+        }
+    }
+}
